@@ -9,7 +9,7 @@ My journey of learning Rust via LeetCode Quest, using AI to transform functional
 
 1. **Draft:** 先用自己的直覺寫出第一版（可能很像 C++ 或 Python）。
 2. **Refine:** 提供 Prompt 給 LLM（如 Gemini），請它改寫成更 Rustacean 的版本。
-3. **Learn:** 紀錄改寫後的差異（如：`match` 的運用、所有權的優化、或是 `Iterator` 的使用）。
+3. **Learn:** 紀錄改寫後的差異（如：`match` 的運用、所有權的優化、或是 `Iterator` 的使用），及演算法的盲點與差異。
 
 ## 目錄結構
 
@@ -17,7 +17,7 @@ My journey of learning Rust via LeetCode Quest, using AI to transform functional
 learn-rust-notebook/
 ├── src/
 │   ├── lib.rs
-│   └── q1_two_sum/
+│   └── q0000_sample/
 │       ├── mod.rs 
 │       ├── solution.rs      # 最終程式碼
 │       ├── draft.rs         # 初始版本
@@ -31,15 +31,11 @@ learn-rust-notebook/
 
 | # | Title | Difficulty | Key Rust Concept |
 | --- | --- | --- | --- |
-| SAMPLE | Two Sum | Easy | `HashMap`, Ownership |
+| 0000 | sample | Easy | cargo test, #\[cfg(test)\] |
 
 ## Prompt
 
 在詢問 LLM 時，有些請求或描述會重複使用，可以記錄在其中，也可以隨著練習的過程，優化提供給 LLM 的 Prompt。
-
-以下是在專案初建時，尋問 LLM 後，連帶給出的一段 Prompt 建議，此專案將以此開始進行延伸。
-
-> "Here is my working solution for LeetCode question in Rust. Please review it and provide a **Rustacean** version. Focus on using idiomatic features like pattern matching, iterators, and efficient memory management. Explain why the new version is better."
 
 ## 📚 Learning Resources
 

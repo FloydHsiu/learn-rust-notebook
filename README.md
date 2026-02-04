@@ -32,6 +32,7 @@ learn-rust-notebook/
 | # | Title | Difficulty | Key Rust Concept |
 | --- | --- | --- | --- |
 | 0000 | sample | Easy | cargo test, #\[cfg(test)\] |
+| 0001 | repeated substring pattern | Easy | Iterators, Slices, chunks_exact |
 
 ## Prompt
 

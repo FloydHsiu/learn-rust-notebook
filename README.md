@@ -33,6 +33,7 @@ learn-rust-notebook/
 | --- | --- | --- | --- |
 | 0000 | sample | Easy | cargo test, #\[cfg(test)\] |
 | 0001 | repeated substring pattern | Easy | Iterators, Slices, chunks_exact |
+| 0002 | rotate string | Easy | String vs &str, Borrowing, String Slicing |
 
 ## Prompt
 
